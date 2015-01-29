@@ -1,5 +1,33 @@
 @import 'foundation/components/grid';
 
+$accent: #F5F5F5;
+$white: #ffffff;
+
 html, body {
-  margin: 20px;
+  height: 100%;
+}
+
+hr {
+  color: $accent;
+}
+
+.column, .columns {
+  padding: 0;
+}
+
+.left-nav {
+  .nav-item {
+    border-bottom: .2rem solid $accent;
+    padding: .75rem;
+    width: 100%;
+    font-weight: bold;
+    &.active {
+      background-color: $accent;
+    }
+  }
+}
+
+.content {
+  border-left: .2rem solid $accent;
+  padding-left: 1rem;
 }
