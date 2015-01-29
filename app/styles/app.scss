@@ -16,6 +16,7 @@ hr {
 }
 
 .left-nav {
+  position: fixed;
   .nav-item {
     border-bottom: .2rem solid $accent;
     padding: .75rem;
